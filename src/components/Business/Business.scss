@@ -1,0 +1,83 @@
+.business {
+  margin-bottom: 147px;
+  &__wrapper {
+    display: flex;
+  }
+
+  &__left__side {
+    max-width: 470px;
+    width: 100%;
+
+    span {
+      font-family: Plus Jakarta Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 160%;
+      letter-spacing: 2.1px;
+      background: linear-gradient(91deg, #5635dd -2.48%, #e63573 99.68%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 6px;
+    }
+
+    h3 {
+      color: #131313;
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 135%;
+      margin-bottom: 32px;
+    }
+
+    p {
+      color: #aaa;
+      font-family: Plus Jakarta Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      margin-bottom: 43px;
+    }
+  }
+
+  &__right__side {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    justify-content: end;
+    flex-wrap: wrap;
+
+    li {
+      max-width: 270px;
+      width: 100%;
+
+      img {
+        width: 270px;
+        height: 120px;
+        margin-bottom: 7px;
+      }
+
+      h4 {
+        color: #131313;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        margin-bottom: 11px;
+      }
+
+      p {
+        color: #aaa;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+      }
+    }
+  }
+}
