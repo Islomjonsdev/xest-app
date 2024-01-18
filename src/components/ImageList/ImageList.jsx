@@ -5,7 +5,7 @@ import icon2 from "../../assets/svg/icon2.svg"
 import icon3 from "../../assets/svg/icon3.svg"
 import icon4 from "../../assets/svg/icon4.svg"
 import icon5 from "../../assets/svg/icon5.svg"
-import "./Imagelist.scss"
+import "./ImageList.scss"
 
 const ImageList = () => {
   return (
