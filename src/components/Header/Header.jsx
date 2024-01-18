@@ -28,7 +28,7 @@ const Header = () => {
                 <Link href="/">FAQ</Link>
               </li>
             </ul>
-            <button>Contact Me</button>
+            <button className="header__btn">Contact Me</button>
           </div>
         </div>
       </div>

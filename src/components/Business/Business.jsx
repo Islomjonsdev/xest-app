@@ -4,6 +4,7 @@ import CardsImg1 from "../../assets/images/image1.png";
 import CardsImg2 from "../../assets/images/image2.png";
 import CardsImg3 from "../../assets/images/image3.png";
 import CardsImg4 from "../../assets/images/image4.png";
+import Button from "../Button/Button";
 import "./Business.scss";
 
 const Business = () => {
@@ -18,6 +19,9 @@ const Business = () => {
             Thankfully, we can do that. I design products that are more than
             pretty. I make them shippable and usable.
           </p>
+          {Button && (
+            <button>Contact US</button>
+          )}
         </div>
 
         <ul className="business__right__side">
@@ -28,7 +32,7 @@ const Business = () => {
               I design products that are more than pretty. I make them usable.
             </p>
           </li>
-          <li>
+          <li style={{marginBottom: "80px"}}>
             <Image src={CardsImg2} />
             <h4>UI Design</h4>
             <p>
@@ -42,7 +46,7 @@ const Business = () => {
               I design products that are more than pretty. I make them usable.
             </p>
           </li>
-          <li>
+          <li style={{marginBottom: "80px"}}>
             <Image src={CardsImg4} />
             <h4>Product Design</h4>
             <p>

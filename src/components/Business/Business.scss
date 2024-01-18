@@ -53,6 +53,10 @@
     li {
       max-width: 270px;
       width: 100%;
+      transition: 0.3s ease;
+      &:hover {
+        transform: scale(1.03);
+      }
 
       img {
         width: 270px;

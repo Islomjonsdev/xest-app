@@ -18,7 +18,7 @@ const Hero = () => {
             user-friendly interfaces for fast-growing startups.
           </p>
           {Button && (
-            <button>Book A Call</button>
+            <button className="btn">Book A Call</button>
           )}
         </div>
         <div className="hero__right__side">

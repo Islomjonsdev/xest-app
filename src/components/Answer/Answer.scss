@@ -1,0 +1,89 @@
+.answer {
+    padding: 127px 0px 131px 0px;
+    background: #181818;
+    margin-bottom: 142px;
+    &__wrapper {
+        display: flex;
+        gap: 107px;
+    }
+    
+    &__left__side {
+        max-width: 570px;
+        width: 100%;
+        li {
+            padding: 21px 21px 20px 19px;
+            background: #222;
+            cursor: pointer;
+            margin-bottom: 20px;
+            
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .answer__left__body {
+                overflow: hidden;
+                max-height: 0;
+                transition: 0.5s ease
+            }
+
+            .answer__left__body.show {
+                height: auto;
+                max-height: 9999px;
+                transition: 0.5s ease;
+                color: #AAA;
+                font-family: Plus Jakarta Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 144%; /* 23.04px */
+            }
+            
+            p {
+                color: #FFF;
+                font-family: Plus Jakarta Sans;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 144%; /* 28.8px */
+            }
+        }
+    }
+    
+    &__right__side {
+        span {
+            font-family: Plus Jakarta Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 160%;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+            background: linear-gradient(91deg, #5635DD -2.48%, #E63573 99.68%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 9px;
+        }
+        
+        h4 {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 135%;
+            margin-bottom: 24px;
+        }
+        
+        p {
+            color: #AAA;
+            font-family: Plus Jakarta Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 144%;
+        }
+    }
+}
