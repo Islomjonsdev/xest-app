@@ -1,10 +1,10 @@
 import React from 'react';
 import "./WhiteBtn.scss"
 
-const WhiteBtn = () => {
+const WhiteBtn = ({btnTitle}) => {
   return (
     <div>
-        <button className='whitebtn'></button>
+        <button className='whitebtn'>{btnTitle}</button>
     </div>
   )
 }

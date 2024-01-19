@@ -55,8 +55,7 @@ const Footer = () => {
         </div>
       </div>
       <span className="footer__span"></span>
-
-      <div className="footer__wrapper__info">
+      <div className="footer__wrapper__info container">
           <p>© 2023 Ideapeel Inc. All Rights Reserved</p>
           <p>Privacy Policy   |   Terms and Conditions</p>
       </div>

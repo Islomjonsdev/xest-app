@@ -6,11 +6,10 @@ import ImageList from '@/components/ImageList/ImageList'
 import Latest from '@/components/Latest/Latest'
 import Portfolio from '@/components/Portfolio/Portfolio'
 import Status from '@/components/Status/Status'
-import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <>
         <Hero />
         <ImageList />
         <Business />
@@ -19,7 +18,7 @@ const page = () => {
         <Latest />
         <Custormer />
         <Answer />
-    </div>
+    </>
   )
 }
 

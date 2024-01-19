@@ -14,9 +14,7 @@ const Portfolio = () => {
                 <span>Portfolio</span>
                 <p>Some Of Our Best Works </p>
             </div>
-            {Button && (
-                <button>Load More</button>
-            )}
+            <Button title={"Load More"}/>
         </div>
 
         <div className="portfolio__card">

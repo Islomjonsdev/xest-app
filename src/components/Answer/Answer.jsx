@@ -1,8 +1,10 @@
 "use client";
-import Image from "next/image";
 import React from "react";
-import ArrowIcon from "../../assets/svg/arraow.svg";
 import { useState } from "react";
+import { FaAngleDown } from "react-icons/fa6";
+import { HiOutlineChevronUp } from "react-icons/hi"
+
+
 import { v4 as uuidv4 } from "uuid";
 import "./Answer.scss";
 
@@ -48,7 +50,9 @@ const Answer = () => {
               <li key={uuidv4()} onClick={() => openToogle(i)}>
                 <div>
                   <p>{item?.title}</p>
-                  <Image src={ArrowIcon} />
+                  <span>
+                    {collapse === i ? <HiOutlineChevronUp /> : <FaAngleDown />}
+                  </span>
                 </div>
                 <div
                   className={

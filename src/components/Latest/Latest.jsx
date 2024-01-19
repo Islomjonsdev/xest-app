@@ -5,6 +5,7 @@ import latestImg1 from "../../assets/images/latstImg1.png";
 import latestImg2 from "../../assets/images/latestImg2.png";
 import sendIcon from "../../assets/svg/send.svg";
 import Link from "next/link";
+import Button from "../Button/Button";
 import "./Latest.scss";
 
 const Latest = () => {
@@ -16,9 +17,8 @@ const Latest = () => {
             <span>LATEST BLOG</span>
             <h4>Check Some of Latest News & Articles</h4>
           </div>
-          {WhiteBtn && <button className="whitebtn">Load More</button>}
+          <WhiteBtn className="latest__top__btn" btnTitle={"Load More"}/>
         </div>
-
         <ul className="portfolio__list">
           <li>
             <Image className="portfolio__image" src={latestImg1} alt="" />

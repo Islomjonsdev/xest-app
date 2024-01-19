@@ -38,15 +38,15 @@
         }
     }
     
-    &__top__right__btn {
-        background-color: #181818;
+    &__top__bt {
+        background-color: #FFF;
     }
     
     ul {
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        gap: 70px;
+        justify-content: space-between;
         li {
             position: relative;
             max-width: 533px;
@@ -59,13 +59,18 @@
             &:last-child {
                 margin-bottom: 0;
             }
+
+            .portfolio__image {
+                width: 535px;
+                height: 370px;
+            }
             div {
                 position: absolute;
                 background: #181818;
                 max-width: 447px;
                 width: 100%;
                 top: 270px;
-                left: 86px;
+                left: 90px;
                 padding: 15px 25px;
                 
                 span {

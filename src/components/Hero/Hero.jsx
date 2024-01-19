@@ -17,9 +17,7 @@ const Hero = () => {
             Award Wining product designer based in Georgia. We create
             user-friendly interfaces for fast-growing startups.
           </p>
-          {Button && (
-            <button className="btn">Book A Call</button>
-          )}
+            <Button title={"Book A Call"}/>
         </div>
         <div className="hero__right__side">
           <Image src={Girl}/>

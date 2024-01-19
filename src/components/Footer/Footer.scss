@@ -71,14 +71,13 @@
     &__wrapper__info {
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 423px;
+        justify-content: space-between;
         padding: 34px 37px;
         
         p {
             color: #ACACAC;
             text-align: right;
-            font-family: Poppins;
+            font-family: "Poppins";
             font-size: 18px;
             font-style: normal;
             font-weight: 500;

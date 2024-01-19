@@ -6,17 +6,19 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <header className="header container">
+    <header className="header">
       <div className="container">
         <div className="header__container">
-          <Link href="/">
-            <Image src={headerIcon} />
-          </Link>
+          <div>
+            <Link href="/">
+              <Image src={headerIcon} />
+            </Link>
+          </div>
 
-          <div className="header__list__wrapper">
+          <nav className="header__list__wrapper">
             <ul>
               <li>
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li>
                 <Link href="/">Service</Link>
@@ -29,7 +31,7 @@ const Header = () => {
               </li>
             </ul>
             <button className="header__btn">Contact Me</button>
-          </div>
+          </nav>
         </div>
       </div>
     </header>
