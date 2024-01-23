@@ -40,13 +40,6 @@
     gap: 22px;
     position: relative;
     
-    img {
-      transition: 0.3s ease;
-      &:hover {
-        transform: scale(1.03);
-      }
-    }
-    
     .portfolio__img1 {
       width: 463px;
       height: 292px;

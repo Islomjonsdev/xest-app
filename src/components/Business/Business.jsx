@@ -30,7 +30,7 @@ const Business = () => {
               I design products that are more than pretty. I make them usable.
             </p>
           </li>
-          <li style={{marginBottom: "80px"}}>
+          <li>
             <Image src={CardsImg2} />
             <h4>UI Design</h4>
             <p>
@@ -44,7 +44,7 @@ const Business = () => {
               I design products that are more than pretty. I make them usable.
             </p>
           </li>
-          <li style={{marginBottom: "80px"}}>
+          <li>
             <Image src={CardsImg4} />
             <h4>Product Design</h4>
             <p>

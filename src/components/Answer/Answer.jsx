@@ -51,7 +51,7 @@ const Answer = () => {
                 <div>
                   <p>{item?.title}</p>
                   <span>
-                    {collapse === i ? <HiOutlineChevronUp /> : <FaAngleDown />}
+                     {collapse === i ? <HiOutlineChevronUp /> : <FaAngleDown />}
                   </span>
                 </div>
                 <div

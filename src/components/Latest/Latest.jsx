@@ -44,7 +44,7 @@ const Latest = () => {
 
               <Link href="/">
               READ MORE
-              <Image src={sendIcon}/>
+              <Image className="letest__icon" src={sendIcon}/>
               </Link>
             </div>
           </li>

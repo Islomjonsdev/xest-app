@@ -51,6 +51,15 @@
     flex-wrap: wrap;
 
     li {
+      &:nth-child(2), &:nth-child(4){
+        margin-top: -90px;
+      }
+
+    }
+
+    
+
+    li {
       max-width: 270px;
       width: 100%;
       transition: 0.3s ease;

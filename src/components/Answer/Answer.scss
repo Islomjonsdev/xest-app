@@ -2,9 +2,10 @@
   padding: 127px 0px 131px 0px;
   background: #181818;
   margin-bottom: 142px;
+
   &__wrapper {
     display: flex;
-    gap: 107px;
+    justify-content: space-between;
   }
 
   &__left__side {
@@ -58,6 +59,8 @@
   }
 
   &__right__side {
+    max-width: 470px;
+    width: 100%;
     span {
       font-family: Plus Jakarta Sans;
       font-size: 14px;

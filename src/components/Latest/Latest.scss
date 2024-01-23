@@ -38,10 +38,6 @@
         }
     }
     
-    &__top__bt {
-        background-color: #FFF;
-    }
-    
     ul {
         position: relative;
         display: flex;
@@ -114,6 +110,15 @@
                     font-weight: 700;
                     line-height: 140%;
                     letter-spacing: 2.88px;
+                    transition: 0.3s ease;
+
+                    img {
+                        transition: 0.3s ease;
+                    }
+
+                    &:hover img {
+                        transform: rotate(60deg);
+                    }
                 }
             }
         }
