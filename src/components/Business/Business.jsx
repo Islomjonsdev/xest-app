@@ -19,7 +19,7 @@ const Business = () => {
             Thankfully, we can do that. I design products that are more than
             pretty. I make them shippable and usable.
           </p>
-          <Button title={"Contact US"}/>
+          <Button title={"Contact US"} />
         </div>
 
         <ul className="business__right__side">

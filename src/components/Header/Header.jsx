@@ -18,7 +18,7 @@ const Header = () => {
           <nav className="header__list__wrapper">
             <ul>
               <li>
-                <Link href="/about">About</Link>
+                <Link href="/admin">About</Link>
               </li>
               <li>
                 <Link href="/">Service</Link>
