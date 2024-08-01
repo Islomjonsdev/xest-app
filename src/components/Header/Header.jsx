@@ -21,13 +21,13 @@ const Header = () => {
                 <Link href="/admin">About</Link>
               </li>
               <li>
-                <Link href="/">Service</Link>
+                <Link href="/service">Service</Link>
               </li>
               <li>
-                <Link href="/">Blogs</Link>
+                <Link href="/admin/blogs">Blogs</Link>
               </li>
               <li>
-                <Link href="/">FAQ</Link>
+                <Link href="/faq">FAQ</Link>
               </li>
             </ul>
             <button className="header__btn">Contact Me</button>
